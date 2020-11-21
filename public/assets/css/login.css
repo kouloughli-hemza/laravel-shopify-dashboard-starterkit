@@ -1,0 +1,257 @@
+/*
+ *
+ *  *
+ *  *  * Author : Kouloughli Hemza
+ *  *  * FileName : login.css
+ *  *  * Date :  11/9/20, 1:39 PM.
+ *  *  * Permission to use, copy, modify, and/or distribute this software for any
+ *  *  * purpose with or without fee is NOT ALLOWED, provided that the above
+ *  *  * copyright notice and this permission notice appear in all copies.
+ *  *  * Copyright (c) 2020
+ *  *
+ *
+ */
+@media all {
+
+    a, button, [role="button"], input, label, select, summary, textarea {
+
+        touch-action: manipulation;
+
+    }
+
+    li, form, input {
+
+        margin: 0px;
+
+    }
+
+    input {
+
+        font-size: 14px;
+
+        line-height: 24px;
+
+        font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+
+    }
+
+    input, textarea {
+
+        box-sizing: border-box;
+
+        width: 100%;
+
+        max-width: 100%;
+
+        vertical-align: top;
+
+        height: 28px;
+
+        font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+
+        font-size: 14px;
+
+        padding: 4px;
+
+        margin: 0px;
+
+        border: 1px solid rgb(211, 219, 226);
+
+        display: inline-block;
+
+        color: rgb(34, 34, 34);
+
+        border-radius: 3px;
+
+    }
+
+    input:focus, input.focus, textarea:focus, textarea.focus {
+
+        border: 1px solid rgb(0, 111, 187);
+
+        outline: none;
+
+    }
+
+    input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+
+        color: rgb(145, 158, 171);
+
+        opacity: 1;
+
+        -webkit-font-smoothing: antialiased;
+
+    }
+
+    input::placeholder, textarea::placeholder {
+
+        color: rgb(145, 158, 171);
+
+        opacity: 1;
+
+        -webkit-font-smoothing: antialiased;
+
+    }
+
+    .next-input, .next-input--stylized {
+
+        min-width: 75px;
+
+        vertical-align: baseline;
+
+        height: auto;
+
+        margin: 0px;
+
+        color: var(--p-text, #212b36);
+
+        -webkit-appearance: none;
+
+        padding: 5px 10px;
+
+        border: 1px solid var(--p-border, #c4cdd5);
+
+        border-radius: var(--p-border-radius-base, 3px);
+
+        font-size: 1.6rem;
+
+        font-weight: 400;
+
+        line-height: 2.4rem;
+
+        text-transform: initial;
+
+        letter-spacing: initial;
+
+        box-sizing: border-box;
+
+        display: block;
+
+        width: 100%;
+
+        transition-property: background, border, box-shadow, -webkit-box-shadow;
+
+        transition-timing-function: cubic-bezier(0.64, 0, 0.35, 1);
+
+        transition-duration: 200ms;
+
+        box-shadow: rgba(99, 115, 129, 0.05) 0px 1px 0px 0px inset;
+
+        border-color: var(--p-border-neutral-subdued, #c4cdd5);
+
+        background-color: var(--p-surface, white);
+
+    }
+
+    .next-input::-webkit-input-placeholder, .next-input--stylized::-webkit-input-placeholder {
+
+        color: var(--p-text-disabled, #919eab);
+
+        -webkit-font-smoothing: antialiased;
+
+    }
+
+    .next-input::placeholder, .next-input--stylized::placeholder {
+
+        color: var(--p-text-disabled, #919eab);
+
+        -webkit-font-smoothing: antialiased;
+
+    }
+
+    .newDesignLanguage .next-input, .newDesignLanguage .next-input--stylized {
+
+        box-shadow: none;
+
+        border-top-color: var(--p-border-shadow);
+
+    }
+
+    .next-input:focus, .next-input--stylized:focus {
+
+        border: 1px solid var(--p-border-neutral-subdued, #5c6ac4);
+
+        box-shadow: 0 0 0 1px var(--p-focused, #5c6ac4);
+
+    }
+
+    .newDesignLanguage .next-input:focus, .newDesignLanguage .next-input--stylized:focus {
+
+        border-top-color: var(--p-border-shadow);
+
+        transition: box-shadow 100ms var(--p-ease),-webkit-box-shadow 100ms var(--p-ease);
+
+        box-shadow: inset 0 1px 0 0 rgba(99,115,129,0.05),0 0 0 0.1rem var(--p-surface),0 0 0 0.3rem var(--p-focused);
+
+    }
+
+    .login-card__content .next-input, .login-card__content .next-input--stylized {
+
+        max-height: 5.2rem;
+
+        padding: 1.6rem;
+
+        color: rgb(69, 79, 91);
+
+        margin: 0px;
+
+    }
+
+    .login-card__content .next-input, .login-card__content .next-input--stylized, .login-card__content .next-field__connected-wrapper {
+
+        border: 0.1rem solid rgb(140, 145, 150);
+
+    }
+
+    .login-card__content .next-field__connected-wrapper.next-input--is-focused, .login-card__content .next-input:focus, .login-card__content .next-input--stylized:focus {
+
+        box-shadow: rgb(0, 128, 96) 0px 0px 0px 0.1rem;
+
+        border-color: rgb(0, 128, 96);
+
+    }
+
+    .next-input, .next-input--stylized {
+
+        max-height: 5.6rem;
+
+        font-size: 1.6rem;
+
+        padding: 2.4rem 1.6rem 0.6rem 1.2rem;
+
+    }
+
+}
+
+@media screen and (min-width: 640px) {
+
+    .next-input, .next-input--stylized {
+
+        font-size: 1.4rem;
+
+    }
+
+}
+@media all {a, button, [role="button"], input, label, select, summary, textarea {touch-action: manipulation;}.next-label {display: block;margin-bottom: 0.4rem;font-size: 1.5rem;font-weight: 400;line-height: 2rem;text-transform: initial;letter-spacing: initial;cursor: pointer;}label {display: block;color: var(--p-text, #212b36);margin-bottom: 5px;}.login-card__content .next-label {font-size: 1.6rem;line-height: 2.4rem;margin-bottom: 0.4rem;}.next-label {position: absolute;top: 0px;left: 0px;padding: inherit;margin: 0px;transform: translateX(1.3rem) translateY(0.4rem);z-index: 50;color: rgb(99, 115, 129);font-size: 1.2rem;}}@media screen and (min-width: 640px) {.next-label {font-size: 1.4rem;}}
+
+@media all {.next-input-wrapper {position: relative;width:450px;margin-top:15%}.ui-form__section .next-input-wrapper {box-sizing: border-box;margin: 0px;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;flex-direction: column;padding: 8px;max-width: 100%;}}
+
+.submit-form {width:450px; padding: 15px 0px}
+.login-img {width:120px}
+.img-container {text-align: center;padding-top: 66px;}
+
+.login-button {
+    display: inline-block;
+    width: 100%;
+    padding: 1.0625em 1.875em;
+    background-color: #5e6ebf;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center;
+    outline: none;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
