@@ -1,5 +1,2 @@
-## Kouloughli - Advanced PHP Login and User Management
+## Kouloughli - Shopify Laravel app with dashboard starter Kit
 
-- Website: https://Kouloughliapp.io
-- Documentation: https://milos.support-hub.io
-- Developed by [Milos Stojanovic](https://mstojanovic.net)
